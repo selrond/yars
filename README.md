@@ -41,14 +41,13 @@ const MyComponent = (props) => {
 }
 
 export default MyComponent;
-
 ```
 
 - `ir` - Import React
 
 ```jsx
 import React from 'react';
-``
+```
 
 - `irc` - Import React Component
 
