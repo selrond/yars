@@ -75,7 +75,7 @@ const StyledComponent = styled.div`
 ${(props) => props.};
 ```
 
-- `scscp` - styled-components [custom props workaround](https://github.com/styled-components/styled-components/issues/135)
+- `scscp` - styled-components [custom props workaround](https://github.com/styled-components/styled-components/issues/135#issuecomment-256018643)
 
 ```jsx
 const StyledComponent = styled(({ customProp, ...rest }) => <ExistingComponent {...rest}></ExistingComponent>)`
