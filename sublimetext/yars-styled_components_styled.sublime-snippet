@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+const ${1:StyledComponent} = styled.${2:div}`
+	${3:/* CSS */}
+`
+]]></content>
+	<tabTrigger>scs</tabTrigger>
+	<scope>source.js</scope>
+	<description>styled-components styled</description>
+</snippet>
