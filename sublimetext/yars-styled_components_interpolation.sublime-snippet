@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\${(props) => props.${1}};
+]]></content>
+	<tabTrigger>sci</tabTrigger>
+	<scope>source.js</scope>
+	<description>styled-components interpolation</description>
+</snippet>
