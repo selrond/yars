@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+
+const ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} = (props) => {
+	return (
+		<${2:div}>${3}
+		</${2:div}>
+	);
+}
+
+export default ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}};
+
+]]></content>
+	<tabTrigger>rfc</tabTrigger>
+	<scope>source.js</scope>
+	<description>React Functional Component skeleton</description>
+</snippet>
