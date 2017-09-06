@@ -2,11 +2,10 @@
 	<content><![CDATA[
 import React, { Component } from 'react';
 
-class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component {
+class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
 	render() {
 		return (
-			<${2:div}>
-				${3}
+			<${2:div}>${3}
 			</${2:div}>
 		);
 	}
