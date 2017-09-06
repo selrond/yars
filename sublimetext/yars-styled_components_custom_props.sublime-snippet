@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+const ${1:StyledComponent} = styled(({ ${3:customProp}, ...rest }) => <${2:ExistingComponent} {...rest}></${2:ExistingComponent}>)`
+	${4:/* CSS */}
+`
+]]></content>
+	<tabTrigger>scscp</tabTrigger>
+	<scope>source.js</scope>
+	<description>styled-components custom props workaround</description>
+</snippet>
