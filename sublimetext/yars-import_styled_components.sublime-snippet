@@ -1,8 +1,7 @@
 <snippet>
-	<content>
-		import styled from 'styled-components';
-		
-	</content>
+	<content><![CDATA[
+import styled from 'styled-components';
+]]></content>
 	<tabTrigger>isc</tabTrigger>
 	<scope>source.js</scope>
 	<description>Import styled-components</description>
