@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+		import styled from 'styled-components';
+		
+	</content>
+	<tabTrigger>isc</tabTrigger>
+	<scope>source.js</scope>
+	<description>Import styled-components</description>
+</snippet>
