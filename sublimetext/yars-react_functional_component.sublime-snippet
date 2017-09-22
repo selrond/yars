@@ -2,12 +2,10 @@
 	<content><![CDATA[
 import React from 'react';
 
-const ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} = (props) => {
-	return (
-		<${2:div}>${3}
-		</${2:div}>
-	);
-}
+const ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} = (props) => (
+	<${2:div}>${3}
+	</${2:div}>
+);
 
 export default ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}};
 
